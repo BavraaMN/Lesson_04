@@ -1,2 +1,3 @@
-const howmuchmoney_ = prompt("Выводите доход ", "");
-Number(howmuchmoney_) % 100 > 0? console.log('не можем выдавать'):console.log('можем выдавать');
+const howmuchmoney = prompt("Выводите доход ", "");
+
+Number(howmuchmoney)>50000? (console.log("Ваш налог "+(Number(howmuchmoney)*0.3))) : (Number(howmuchmoney)>15000? (console.log("Ваш налог "+(Number(howmuchmoney))*0.2)):console.log("Ваш налог "+Number(howmuchmoney)*0.13))
