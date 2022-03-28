@@ -2,6 +2,8 @@
          
   
 
+
+
       const producnameconst = prompt("Наименование товара?", "");
       console.log('Наименование товара?: ', producnameconst);
 

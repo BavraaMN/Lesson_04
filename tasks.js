@@ -1,3 +1,5 @@
+
+
 const rain=(Math.random() > 0.5)?console.log("Пошёл дождь. Возьмите зонт!"):console.log("Дождя нет!!");
 
 
@@ -11,4 +13,5 @@ console.log('Введите кол-во баллов по русскому яз�
 const itconst = prompt("Введите кол-во баллов по информатике", "");
 console.log('Введите кол-во баллов по информатике ?: ', itconst);
 
-mathconst+russianconst+itconst>255?console.log('Поздравляю, вы поступили на бюджет!'):console.log('Вам не получилась')
+console.log(Number(mathconst)+Number(russianconst)+Number(itconst));
+(Number(mathconst)+Number(russianconst)+Number(itconst)) > 255 ? console.log('Поздравляю, вы поступили на бюджет!'):console.log('Вам не получилась')
