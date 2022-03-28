@@ -13,5 +13,11 @@ console.log('Введите кол-во баллов по русскому яз�
 const itconst = prompt("Введите кол-во баллов по информатике", "");
 console.log('Введите кол-во баллов по информатике ?: ', itconst);
 
-console.log(Number(mathconst)+Number(russianconst)+Number(itconst));
 (Number(mathconst)+Number(russianconst)+Number(itconst)) > 255 ? console.log('Поздравляю, вы поступили на бюджет!'):console.log('Вам не получилась')
+
+
+const howmuchmoney = prompt("Сколько вы хотите", "");
+Number(howmuchmoney) % 100 > 0? console.log('не можем выдавать'):console.log('можем выдавать');
+
+
+
