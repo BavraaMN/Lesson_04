@@ -19,15 +19,12 @@
 
       if (isNaN(totalproductcountconst))
       {
-         console.log('Количество товара только цифры надо')
+         console.log('Количество товара Вы ввели некорректные данные')
       }      
          else    if (isNaN(productcostconst))
       {
-         console.log('Цена товара только цифры надо')
+         console.log('Цена товара Вы ввели некорректные данные')
       }      
-      else 
-      {                             
-       console.log(`На складе ${totalproductcountconst} единицы товара "${producnameconst}" (${productcategoryconst}) на сумму ${totalproductcountconst*productcostconst} деревянных`);
-      }
+     
 
   
